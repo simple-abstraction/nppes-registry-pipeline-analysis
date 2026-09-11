@@ -1,4 +1,4 @@
-# nppes-registry-pipeline-analysis
+# NPPES Registry Pipeline, Analysis, & Visualization 
 A data pipeline pulling the current CMS NPPES registry and a data analysis on NPIs nationwide 
 
 # Table of Contents
