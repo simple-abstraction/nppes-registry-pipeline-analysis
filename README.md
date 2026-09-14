@@ -45,7 +45,9 @@ The pipeline uses Python and Polars to process the NPPES source data without req
 
 Processing flow:
 
+```
 NPPES V2 ZIP → Source Validation → CSV Extraction → Schema Validation → Lazy Data Load → Data Normalization → Quality Checks → National Aggregation → State Aggregation → Validation → CSV / Parquet Outputs
+```
 
 Only fields required for the analysis are selected from the 330-column source dataset. The pipeline also performs reconciliation and data-quality checks before producing the final analytical datasets.
 
